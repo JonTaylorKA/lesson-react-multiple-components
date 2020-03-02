@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './components/welcome/welcome'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Welcome name='Eric' />
+        <h2>Welcome to React</h2>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
